@@ -1,3 +1,6 @@
+hist(school$X2012.2013.PROGRESS.CATEGORY.SCORE,xlab = "scores")
+skewness(school$X2012.2013.PROGRESS.CATEGORY.SCORE,na.rm = TRUE)
+kurtosis(school$X2012.2013.PROGRESS.CATEGORY.SCORE,na.rm = TRUE)
 mean(school$X2012.2013.OVERALL.SCORE,na.rm = TRUE)
 mean(school$X2012.13.OVERALL.PERCENTILE,na.rm = TRUE)
 mean(school$X2012.2013.PROGRESS.CATEGORY.SCORE,na.rm = TRUE)
